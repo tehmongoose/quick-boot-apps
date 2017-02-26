@@ -1,0 +1,9 @@
+com:
+  efx:
+    pet:
+      ldap:
+        uris: ldap://localhost:8389/
+        base_dn: dc=springframework,dc=org
+        dn_pattern: uid={0},ou=people
+        search_base: ou=groups
+        password_attr: userPassword
